@@ -1,0 +1,71 @@
+  p {
+    max-width: 255px;
+    word-wrap: break-word;
+    margin-bottom: 0;
+    position: relative;
+    border-radius: 20px;
+
+    &.from-me,
+    &.status {
+      align-self: flex-end;
+    }
+
+    &.message {
+      padding: 10px 20px;
+
+      &:before {
+        content: "";
+        width: 15px;
+        position: absolute;
+        bottom: -2px;
+        height: 20px;
+      }
+  
+      &.from-me {
+        color: white;
+        background: #0B93F6;
+        align-self: flex-end;
+      }
+  
+      &.from-me.last:before {
+        right: -15px;
+        border-left: 10px solid #0B93F6;
+        border-bottom-left-radius: 16px 14px;
+        -webkit-transform: translate(0, -2px);
+        transform: translate(0, -2px);
+      }
+  
+      &.to-me {
+        background: #E5E5EA;
+        color: black;
+        align-self: flex-start;
+      }
+  
+      &.to-me.last:before {
+        left: -15px;
+        border-right: 10px solid #E5E5EA;
+        border-bottom-right-radius: 16px 14px;
+        -webkit-transform: translate(0, -2px);
+        transform: translate(0, -2px);
+      }
+    }
+
+    .message-image {
+      width: 200px;
+      height: auto;
+      border-radius: 20px;
+    }
+
+    .message-status {
+      width: 100%;
+
+      &.fade-enter-active, &.fade-leave-active {
+        transition: opacity .5s;
+      }
+      &.fade-enter, .fade-leave-to /* .fade-leave-active до версии 2.1.8 */ {
+        opacity: 0;
+      }
+    }
+
+
+  }

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Send Message Button</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0 375 0 375 667 0 667"></polygon>
+        <linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="linearGradient-3">
+            <stop stop-color="#E38819" offset="0%"></stop>
+            <stop stop-color="#EFBA32" offset="47.3694596%"></stop>
+            <stop stop-color="#EFBA32" offset="73.8749859%"></stop>
+            <stop stop-color="#E38819" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Messages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-4" transform="translate(-2428.000000, -659.000000)" fill="#EFFAFE">
+            <rect id="Background" x="0" y="0" width="2675" height="1919"></rect>
+        </g>
+        <g id="Tap-to-replace-emoji" transform="translate(-328.000000, -374.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Background" fill="#FFFFFF" xlink:href="#path-1"></use>
+            <g id="Toolbar" mask="url(#mask-2)">
+                <g transform="translate(0.000000, 325.000000)">
+                    <rect id="Toolbar-Background" fill="#FFFFFF" x="0" y="0" width="375" height="84"></rect>
+                    <g id="Message-Entry-Field---Active" stroke-width="1" fill="none" transform="translate(66.000000, 5.000000)">
+                        <rect id="input" stroke="#C8C8CD" fill="#FAFAFA" x="0.5" y="0.5" width="292" height="73" rx="18"></rect>
+                        <text id="." font-family="Helvetica" font-size="17" font-weight="normal" letter-spacing="-0.409999996" fill="#231F20">
+                            <tspan x="266.5" y="43">.</tspan>
+                        </text>
+                        <text id="movies" fill="url(#linearGradient-3)" font-family="Helvetica" font-size="17" font-weight="normal" letter-spacing="-0.409999996">
+                            <tspan x="212.5" y="43">movies</tspan>
+                        </text>
+                        <path d="M275,44 C282.179702,44 288,49.8202983 288,57 C288,64.1797017 282.179702,70 275,70 C267.820298,70 262,64.1797017 262,57 C262,49.8202983 267.820298,44 275,44 Z M275.567242,50.292923 C275.269246,49.9681104 274.753753,49.9681104 274.455258,50.292923 L274.455258,50.292923 L269.25983,55.9456685 C268.850335,56.3908379 268.928334,57.104922 269.461327,57.44736 C269.880321,57.7162746 270.444313,57.603975 270.780809,57.2383721 L270.780809,57.2383721 L273.999764,53.735936 L273.999764,62.905459 C273.999764,63.4614172 274.447758,63.9126296 274.99975,63.9126296 C275.551742,63.9126296 275.999736,63.4614172 275.999736,62.905459 L275.999736,62.905459 L275.999736,53.7107567 L279.279691,57.2796661 C279.477188,57.494697 279.748684,57.603975 280.02118,57.603975 C280.242177,57.603975 280.464674,57.5319623 280.648172,57.385419 C281.103665,57.0228375 281.107165,56.3208396 280.713671,55.8922884 L280.713671,55.8922884 Z" id="Send-Message-Button" fill="#007AFF"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

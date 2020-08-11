@@ -1,0 +1,25 @@
+.navbar-wrapper {
+  height: 65px;
+  overflow: hidden;
+  text-align: center;
+  padding: 10px;
+  background-color: #FAFAFA;
+  opacity: 75%;
+  border-bottom: 1px solid #eee;
+
+  .navbar-back-btn {
+    position: absolute;
+    left: 25px;
+    top: 20px;
+  }
+
+  .navbar-avatar {
+    width: 40px;
+    height: 40px;
+  }
+
+  .navbar-text {
+    margin: 5px;
+    color: #222;
+  }
+}

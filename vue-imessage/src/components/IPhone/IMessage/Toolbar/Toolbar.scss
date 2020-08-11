@@ -1,0 +1,70 @@
+.toolbar-wrapper {
+  width: 100%;
+  height: 44px;
+  position: absolute;
+  bottom: 20px;
+
+
+  .toolbar-buttons-main {
+    transition: .3s all;
+    position: absolute;
+    line-height: 50px;
+
+    img {
+      padding: 10px 15px;
+      vertical-align: middle;
+    }
+
+    &.expanded {
+      transform: translateX(-120px);
+    }
+  }
+
+  &.keyboard {
+    bottom: 244px;
+  }
+
+
+
+//   .slide-leave-active,
+// .slide-enter-active {
+//   transition: 1s;
+// }
+// .slide-enter {
+//   transform: translate(-20%, 0);
+// }
+// .slide-leave-to {
+//   transform: translate(-20%, 0);
+// }
+
+// .toolbar-buttons-sub {
+//   .slide-enter {
+//     transform: translate(-20%, 0);
+//   }
+//   .slide-leave-to {
+//     transform: translate(-20%, 0);
+//   }
+// }
+
+  // .slide-fade-enter-active {
+  //   transition: all .3s ease;
+  // }
+  // .slide-fade-leave-active {
+  //   transition: all .3s ease;
+  // }
+  // .slide-fade-enter, .slide-fade-leave-to
+  // /* .slide-fade-leave-active до версии 2.1.8 */ {
+  //   transform: translateX(-20px);
+  //   opacity: 0;
+  // }
+
+  // .toolbar-buttons-sub.slide-fade-enter, .toolbar-buttons-sub.slide-fade-leave-to
+  // /* .slide-fade-leave-active до версии 2.1.8 */ {
+  //   transform: translateX(-20px);
+  //   opacity: 0;
+  // }
+
+  .toolbar-buttons-main {
+
+  }
+}

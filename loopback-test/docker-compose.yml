@@ -1,0 +1,40 @@
+version: "3.4"
+
+x-common: &common
+  logging:
+    options:
+      max-size: "1m"
+      max-file: "10"
+  env_file: .env
+  restart: on-failure
+
+services:
+  publisher:
+    <<: *common
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - PROCESS_TYPE=publisher
+    ports:
+      - 3000:3000
+    depends_on:
+      - sqs
+
+  consumer:
+    <<: *common
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - PROCESS_TYPE=consumer
+    depends_on:
+      - sqs
+
+  sqs:
+    <<: *common
+    image: roribio16/alpine-sqs
+    container_name: sqs
+    ports:
+      - 9325:9325
+      - 9324:9324

@@ -1,0 +1,7 @@
+export const openexchangeratesAppId = process.env.OPENEXCHANGERATES_APP_ID ?? ''
+export const accessKeyId = process.env.AWS_ACCESS_KEY_ID ?? ''
+export const secretAccessKey = process.env.AWS_SECRET_ACCESS_KEY ?? ''
+export const region = process.env.SQS_REGION ?? ''
+export const endpoint = process.env.SQS_ENDPOINT ?? ''
+export const queueName = process.env.SQS_QUEUE_NAME ?? ''
+export const processType = process.env.PROCESS_TYPE ?? 'consumer'

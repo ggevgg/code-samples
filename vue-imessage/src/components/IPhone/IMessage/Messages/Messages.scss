@@ -1,0 +1,24 @@
+.messages-wrapper {
+  // width: 100%;
+  // height: 500px;
+  // padding: 15px;
+
+  overflow: auto;
+  font-family: "Helvetica Neue";
+  font-size: 12px;
+  font-weight: normal;
+  display: flex;
+  flex-direction: column;
+  margin: 5px 15px;
+  padding: 5px;
+  max-height: 570px;
+  scroll-behavior: smooth;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  &.keyboard {
+    height: 340px;
+  }
+}

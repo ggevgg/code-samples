@@ -1,0 +1,3 @@
+export const CURRENCY_NOT_FOUND = 'CURRENCY_NOT_FOUND'
+export const API_ERROR = 'API_ERROR'
+export const REQUEST_ERROR = 'REQUEST_ERROR'

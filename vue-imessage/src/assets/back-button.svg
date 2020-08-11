@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="22px" viewBox="0 0 13 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Back Chevron</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0 375 0 375 667 0 667"></polygon>
+        <rect id="path-3" x="0" y="0" width="375" height="86"></rect>
+        <filter x="-0.1%" y="-0.3%" width="100.1%" height="101.2%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="0.5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="SourceAlpha" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.698039216   0 0 0 0 0.698039216   0 0 0 0 0.698039216  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Write-it-yourself" transform="translate(-15.000000, -32.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Background" fill="#FFFFFF" xlink:href="#path-1"></use>
+            <g id="Messages" mask="url(#mask-2)">
+                <g transform="translate(10.000000, 20.000000)"></g>
+            </g>
+            <g id="Nav-Bar" mask="url(#mask-2)">
+                <g id="Bar">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                    <use fill-opacity="0.75" fill="#FAFAFA" fill-rule="evenodd" xlink:href="#path-3"></use>
+                </g>
+                <polygon id="Back-Chevron" fill="#0076FF" points="15.5 43 26 32.5 28 34.5 19.5 43 28 51.5 26 53.5"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

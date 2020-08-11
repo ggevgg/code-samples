@@ -1,0 +1,6 @@
+export const BASE_URL = 'https://api.quwi.com/v2/'
+export const LOGIN_URL = 'auth/login'
+export const LOGOUT_URL = 'auth/logout'
+export const PROJECTS_LIST_URL = 'projects-manage/index'
+export const PROJECT_INFO_URL = 'projects-manage'
+export const PROJECT_UPDATE_URL = 'projects-manage/update'

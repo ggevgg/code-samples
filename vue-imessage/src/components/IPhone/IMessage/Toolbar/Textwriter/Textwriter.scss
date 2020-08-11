@@ -1,0 +1,41 @@
+.textwriter-wrapper {
+  position: absolute;
+  right: 20px;
+  bottom: 0;
+  font-family: "Helvetica Neue";
+  font-size: 14px;
+  font-weight: normal;
+
+  .textwriter {
+    width: 210px;
+    max-height: 150px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 8px 40px 7px 17px;
+    outline: none;
+    transition: .3s all;
+    overflow: auto;
+
+    &.expanded {
+      width: 270px;
+    }
+
+    &.empty:before {
+      content: 'iMessage';
+      position: relative;
+      left: 0px;
+      color: #ccc;
+    }
+  }
+
+  .textwriter-send {
+    width: 25px;
+    height: 25px;
+    bottom: 5px;
+    right: 5px;
+    position: absolute;
+  }
+
+
+}
